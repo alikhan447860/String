@@ -1,18 +1,18 @@
 import java.util.*;
 public class FreqofEachCharinStr {
 public static void main(String[] args) {
-    String str="Hello world";
-    HashMap<Character,Integer>FreeMap=new HashMap<>();
+    String str="Hello You";
+    HashMap<Character,Integer>countMap=new HashMap<>();
     for(int i=0;i<str.length();i++){
         char ch=str.charAt(i);
-        if(FreeMap.containsKey(ch)){
-            FreeMap.put(ch, FreeMap.get(ch)+1);
+        if(countMap.containsKey(ch)){
+            countMap.put(ch, countMap.get(ch)+1);
         }else{
-            FreeMap.put(ch, 1);
+            countMap.put(ch, 1);
         }
     }
-    for(char ch:FreeMap.keySet()){
-        System.out.println(ch+" : "+FreeMap.get(ch));
+    for(char ch:countMap.keySet()){
+        System.out.println(ch+" : "+countMap.get(ch));
     }
 }
 }
