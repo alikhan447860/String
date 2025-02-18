@@ -8,6 +8,6 @@ public class ReverseWordonOriginal {
             sb.append(temp);
             sb.append(" ");
         }
-        System.out.println("The Reverse words in the original order :"+sb);
+        System.out.println("The Reverse words in the original order:"+sb);
     }
 }
