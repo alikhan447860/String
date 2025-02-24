@@ -8,7 +8,7 @@ public class RotationofEachotherStr {
       }
       String s3=s1+s1;
       if(s3.contains(s2)){
-        System.out.println("Rotation of each other");
+        System.out.println(" Rotation of each other");
       }else{
         System.out.println("Not Rotation of each other");
       }
