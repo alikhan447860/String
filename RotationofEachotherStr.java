@@ -3,7 +3,7 @@ public class RotationofEachotherStr {
       String s1="ABCD";
       String s2="CDAB";
       if(s1.length()!=s2.length()){
-          System.out.println("Not a Rotation of each other");
+          System.out.println("Not a Rotation of Each other");
           return;
       }
       String s3=s1+s1;
